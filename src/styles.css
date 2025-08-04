@@ -12,9 +12,14 @@ h1 {
     font-size: 96px;
 }
 
+h2 {
+    font-size: 64px;
+}
+
 p {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
+    line-height: 30px;
 }
 
 .hero {
@@ -47,3 +52,4 @@ button {
     border: none;
     border-radius: 6px;
 }
+
