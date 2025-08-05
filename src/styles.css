@@ -74,6 +74,10 @@ click2 {
         line-height: 1.5;
     }
 
+    .hero h2 {
+        padding: 80px 20px;
+    }
+
     h2 {
         font-size: 44px;
     }
@@ -83,4 +87,5 @@ click2 {
         text-align: center;
     }
 }
+
 
