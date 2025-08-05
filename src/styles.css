@@ -54,7 +54,6 @@ button {
 
 .click2 {
     background: white;
-    border-radius: 4px;
     color: #6c63ff;
     font-size: 18px;
     line-height: 27px;
@@ -85,6 +84,7 @@ button {
         text-align: center;
     }
 }
+
 
 
 
