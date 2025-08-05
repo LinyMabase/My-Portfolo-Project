@@ -50,7 +50,6 @@ button {
     line-height: 27px;
     padding: 15px 30px;
     border: none;
-    border-radius: 6px;
 }
 
 .click2 {
@@ -59,8 +58,8 @@ button {
     color: #6c63ff;
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;
-    border-radius: 6px;
+    padding: 15px 30px
+    border: 1px solid #6c63ff;
 }
 
 .project-description {
@@ -86,6 +85,7 @@ button {
         text-align: center;
     }
 }
+
 
 
 
