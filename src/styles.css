@@ -75,6 +75,10 @@ button {
     font-family: "Poppins", sans-serif;   
 }
 
+.about-section p {
+    font-size: 16px;
+}
+
 .about-section-content {
     margin: 30px;
 }
@@ -103,6 +107,7 @@ button {
         padding: 0;
     }
 }
+
 
 
 
