@@ -71,12 +71,8 @@ button {
 }
 
 .about-section h2 {
-     font-size: 30px;
+     font-size: 18px;
     font-family: "Poppins", sans-serif;   
-}
-
-.about-section p {
-    font-size: 18px;
 }
 
 .about-section-content {
@@ -107,6 +103,7 @@ button {
         padding: 0;
     }
 }
+
 
 
 
