@@ -70,7 +70,7 @@ button {
     padding: 160px 20px;
 }
 
-.about-section h2 {
+.about-section p {
     font-size: 18px;
     font-family: "Poppins", sans-serif;
 }
@@ -103,6 +103,7 @@ button {
         padding: 0;
     }
 }
+
 
 
 
