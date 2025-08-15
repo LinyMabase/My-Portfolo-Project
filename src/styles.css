@@ -97,30 +97,64 @@ button {
     padding: 0;
 }
 
-@media (max-width:900) {
-    h1 {
-        font-size: 44px;
-        line-height: 1.5;
-    }
+.logo {
+    max-height: 150px;
+}
 
-    .hero {
-        padding: 80px 20px;
-    }
+.nav {
+    padding: 20px 0;
+}
 
-    h2 {
-        font-size: 44px;
-    }
+nav ul {
+    padding: 0;
+    margin: 0;
+}
 
-    .project-description {
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+    color: #6c63ff;
+
+    @media (max-width: 900px) {
+        h1 {
+            font-size: 44px;
+            line-height: 1.5;
+        }
+
+        h2 {
+            font-size: 44px;
+        }
+
+        .project-description {
         padding: 0;
         text-align: center;
     }
+
+        .hero h2 {
+            padding: 80px 20px;
+        }
 
     .content-container {
         text-align: center;
         padding: 0;
     }
+
+    nav a {
+        font-size: 12px;
+    }
 }
+
 
 
 
