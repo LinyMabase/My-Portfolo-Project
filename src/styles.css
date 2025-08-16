@@ -16,6 +16,10 @@ h2 {
     font-size: 64px;
 }
 
+h4 {
+    font-size: 48;
+}
+
 p {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
@@ -126,6 +130,45 @@ nav a {
 nav a:hover, nav li.active a {
     color: #6c63ff;
 
+    footer {
+        margin: 60px 0;
+    }
+
+    footer .contact-box {
+        background: #f9f7fe;
+        padding: 30px 120px;
+        border-radius: 10px;
+    }
+
+    footer .contact-box p {
+        margin: 0;
+    }
+
+    footer .email-link {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+    }
+
+    footer .email-link:hover {
+        color: #6c63ff;
+    }
+
+    footer .social-links a {
+        margin: 0 20px;
+        color: #6c63ff;
+        background: #f9f7fe;
+        padding: 10px 14px;
+        border-radius: 50%;
+        font-size: 18px;
+        transition: all 100ms ease-in-out;
+    }
+
+    footer .social-links a:hover {
+        color: white;
+        background: #6c63ff;
+    }
+
     @media (max-width: 900px) {
         h1 {
             font-size: 44px;
@@ -134,6 +177,10 @@ nav a:hover, nav li.active a {
 
         h2 {
             font-size: 44px;
+        }
+
+        h4 {
+            font-size: 26px;
         }
 
         .project-description {
@@ -154,6 +201,7 @@ nav a:hover, nav li.active a {
         font-size: 12px;
     }
 }
+
 
 
 
